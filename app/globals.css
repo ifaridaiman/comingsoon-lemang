@@ -2,7 +2,7 @@
 
 :root {
   --background: url('/assets/background/lemang-bg.png');
-  --foreground: #171717;
+  --foreground: url('/assets/background/lemang-bg.png');
 }
 
 @theme inline {

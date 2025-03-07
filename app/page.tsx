@@ -2,10 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-url('/assets/background/lemang-bg.png') bg-cover bg-center bg-no-repeat h-screen grid grid-rows-[auto,1fr,auto]">
+    <div className=" h-screen grid grid-rows-[auto,1fr,auto]">
       <main className="flex flex-col gap-8 row-start-2 justify-center items-center ">
         <Image
-          className="dark:invert"
           src="/assets/Logo/lemangtul_logo.svg"
           alt="Lemangtul logo"
           width={180}
